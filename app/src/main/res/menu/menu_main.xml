@@ -1,0 +1,81 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity">
+
+    <item android:id="@+id/XActionClear"
+        android:title="@string/XActionClear"
+        android:orderInCategory="100"
+        app:showAsAction="never"/>
+    <!-- SubMenu Color -->
+    <item android:id="@+id/subMenuColor"
+        android:title="@string/subMenuColor"
+        android:orderInCategory="100"
+        app:showAsAction="never">
+        <menu>
+            <item android:id="@+id/BlackColor"
+                android:title="@string/BlackColor"
+                android:orderInCategory="100"
+                app:showAsAction="never" />
+            <item android:id="@+id/RedColor"
+                android:title="@string/RedColor"
+                android:orderInCategory="100"
+                app:showAsAction="never" />
+            <item android:id="@+id/GreenColor"
+                android:title="@string/GreenColor"
+                android:orderInCategory="100"
+                app:showAsAction="never" />
+            <item android:id="@+id/BlueColor"
+                android:title="@string/BlueColor"
+                android:orderInCategory="100"
+                app:showAsAction="never" />
+
+        </menu>
+    </item>
+    <!-- SubMenu Strike -->
+    <item android:id="@+id/subMenuStroke"
+        android:title="@string/subMenuStroke"
+        android:orderInCategory="100"
+        app:showAsAction="never">
+        <menu>
+            <item android:id="@+id/Stroke1"
+                android:title="@string/Stroke1"
+                android:orderInCategory="100"
+                app:showAsAction="never" />
+            <item android:id="@+id/Stroke2"
+                android:title="@string/Stroke2"
+                android:orderInCategory="100"
+                app:showAsAction="never" />
+            <item android:id="@+id/Stroke3"
+                android:title="@string/Stroke3"
+                android:orderInCategory="100"
+                app:showAsAction="never" />
+            <item android:id="@+id/Stroke4"
+                android:title="@string/Stroke4"
+                android:orderInCategory="100"
+                app:showAsAction="never" />
+
+        </menu>
+    </item>
+    <!-- Line Style -->
+    <item android:id="@+id/subMenuLineStyle"
+        android:title="@string/subMenuLineStyle"
+        android:orderInCategory="100"
+        app:showAsAction="never">
+        <menu>
+            <item android:id="@+id/FILL"
+                android:title="@string/FILL"
+                android:orderInCategory="100"
+                app:showAsAction="never" />
+            <item android:id="@+id/FILL_STROKE"
+                android:title="@string/FILL_STROKE"
+                android:orderInCategory="100"
+                app:showAsAction="never" />
+            <item android:id="@+id/STROKE"
+                android:title="@string/STROKE"
+                android:orderInCategory="100"
+                app:showAsAction="never" />
+        </menu>
+    </item>
+
+</menu>

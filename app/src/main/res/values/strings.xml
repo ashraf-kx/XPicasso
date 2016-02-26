@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">XPicasso</string>
+    <string name="XActionClear">Clear Canvas</string>
+
+    <!-- Colors -->
+    <string name="subMenuColor">Pick Color</string>
+        <string name="BlackColor">Black</string>
+        <string name="RedColor">Red</string>
+        <string name="GreenColor">Green</string>
+        <string name="BlueColor">Blue</string>
+    <!-- Strike -->
+    <string name="subMenuStroke">Strike</string>
+        <string name="Stroke1">1</string>
+        <string name="Stroke2">2</string>
+        <string name="Stroke3">3</string>
+        <string name="Stroke4">4</string>
+    <!-- Line Style -->
+    <string name="subMenuLineStyle">Line Style</string>
+        <string name="FILL">Fill</string>
+        <string name="FILL_STROKE">Fill-Stroke</string>
+        <string name="STROKE">Stroke</string>
+</resources>
